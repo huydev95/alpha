@@ -3,6 +3,41 @@ import type { AlphaTokenInfo } from '@/types'
 const tokens: AlphaTokenInfo[] = [
   {
     chainId: '56',
+    contractAddress: '0xd04a2bb053277721a8321d7441eed5b42fdf7250',
+    name: `Salesforce (Ondo)`,
+    symbol: 'CRMon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
+    contractAddress: '0x34375f826fd3dd4e15f883d4f4786bb45eb705ac',
+    name: `Costco (Ondo)`,
+    symbol: 'COSTon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
+    contractAddress: '0x0d586b51a90dc999f9bb6a0506da7f034a1d3a2e',
+    name: `ConocoPhillips (Ondo)`,
+    symbol: 'COPon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
+    contractAddress: '0x91fc7371d6de682a1e8cfcb4eb7da693312a03a4',
+    name: `Bilibili (Ondo)`,
+    symbol: 'BILIon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
+    contractAddress: '0x467e59ce5d5fe01686d4a80dd1e1dae13549aa6c',
+    name: `Baidu (Ondo)`,
+    symbol: 'BIDUon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
     contractAddress: '0xb034f6cb52b7f2fd5a7eeeffca6b9adcd6b9a6f6',
     name: `ASML Holding NV (Ondo)`,
     symbol: 'ASMLon',
@@ -27,6 +62,13 @@ const tokens: AlphaTokenInfo[] = [
     contractAddress: '0x7af44d51d1fb88c5b74fc71d3cba649bb8099d14',
     name: `Accenture (Ondo)`,
     symbol: 'ACNon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
+    contractAddress: '0x5ecc352c4640f1d26bd231dbbd171f40f7d0eec6',
+    name: `Applied Materials (Ondo)`,
+    symbol: 'AMATon',
     decimals: 18,
   },
   {
