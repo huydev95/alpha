@@ -3,6 +3,34 @@ import type { AlphaTokenInfo } from '@/types'
 const tokens: AlphaTokenInfo[] = [
   {
     chainId: '56',
+    contractAddress: '0xb034f6cb52b7f2fd5a7eeeffca6b9adcd6b9a6f6',
+    name: `ASML Holding NV (Ondo)`,
+    symbol: 'ASMLon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
+    contractAddress: '0xedb3124e96c64c177eb709cbc64f9977db40ea74',
+    name: `AppLovin (Ondo)`,
+    symbol: 'APPon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
+    contractAddress: '0x538e2838f9ebc9b891399df4a8dcc42890d9dc20',
+    name: `Arista Networks (Ondo)`,
+    symbol: 'ANETon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
+    contractAddress: '0x7af44d51d1fb88c5b74fc71d3cba649bb8099d14',
+    name: `Accenture (Ondo)`,
+    symbol: 'ACNon',
+    decimals: 18,
+  },
+  {
+    chainId: '56',
     contractAddress: '0xc16f47c4a7ed39372b9a0e3e2016cede9b4cb83a',
     name: `VanEck Rare Earth and Strategic Metals ETF (Ondo)`,
     symbol: 'REMXon',
